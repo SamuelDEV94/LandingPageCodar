@@ -1,0 +1,100 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0% auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    font-weight: 3200;
+    font-size: 54px;
+    color: #D6000D
+}
+
+.logar {
+    background-color: #D6000D;
+    color: white;
+    width: 160px;
+    height: 42px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+}
+
+.button1 {
+    background-color: #D6000D;
+    color: white;
+    width: 160px;
+    height: 42px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+}
+
+.button2 {
+    background-color: #D6000D;
+    color: white;
+    width: 160px;
+    height: 42px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+h2 {
+    line-height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 600px;
+}
+
+input {
+    width: 160px;
+    height: 42px;
+    border-radius: 4px;
+    font-size: 13px;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    max-width: 1200px;
+    margin: 0% auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
